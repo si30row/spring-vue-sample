@@ -1,0 +1,1 @@
+CREATE table IF NOT EXISTS sample(id int primary key, name varchar(30));

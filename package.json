@@ -1,0 +1,40 @@
+{
+  "name": "spring-data-rest-and-reactjs",
+  "version": "0.1.0",
+  "description": "Demo of ReactJS + Spring Data REST",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spring-guides/tut-react-and-spring-data-rest.git"
+  },
+  "author": "Greg L. Turnquist",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/spring-guides/tut-react-and-spring-data-rest/issues"
+  },
+  "homepage": "https://github.com/spring-guides/tut-react-and-spring-data-rest",
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+  	"webpack": "^4.19.1",
+    "webpack-cli": "3.1.0",
+    "style-loader": "^0.23.0",
+    "css-loader": "^1.0.0",
+    "url-loader": "^1.1.1",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2"
+  }
+}
